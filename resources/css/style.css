@@ -46,6 +46,10 @@ h1 {
   width: auto;
 }
 
+tbody {
+  align-items: center;
+}
+
 thead {
   background-color: rgb(104, 0, 255);
   color: rgb(255,255,255);
