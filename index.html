@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>trackster</title>
   <link rel="icon" href="favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
@@ -16,5 +20,39 @@
   <script type="text/javascript" src="./resources/js/tests.js"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row header">
+      <h1 class="col-xs-7 col-xs-offset-1">trackster</h1>
+        <input type="search" class="col-xs-2" id="search-input" placeholder="Search..."></input>
+        <i class="fa fa-search fa-2x col-xs-1" id="search-button"></i>
+    </div>
+    <table class="table">
+      <thead class="row container">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Song</th>
+          <th scope="col">Artist</th>
+          <th scope="col">Artwork</th>
+          <th scope="col">Listeners</th>
+        </tr>
+      </thead>
+      <tbody class="row container" id="track list">
+        <tr>
+          <td scope="row"><a href="https://www.youtube.com/watch?v=UroApoVbKn0&feature=youtu.be"><i class="fa fa-play-circle-o" aria-hidden="true"></i></td>
+          <td>hello darkness</td>
+          <td>Mark Otto</td>
+          <td>sharabasha</td>
+          <td>12323123123</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="https://www.youtube.com/watch?v=UroApoVbKn0&feature=youtu.be"><i class="fa fa-play-circle-o" aria-hidden="true"></i></th>
+          <td>hello darkness</td>
+          <td>Mark Otto</td>
+          <td>shuyakay</td>
+          <td>10000000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
